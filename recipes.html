@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vareni</title>
+    
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="./css/normalize.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Domu </a>
+          <a href="about.html" class="nav-link"> O nás </a>
+          <a href="tags.html" class="nav-link"> Tagy </a>
+          <a href="recipes.html" class="nav-link"> Recepty </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Kontakt </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <main class="page">
+      <section class="recipes-container">
+        
+        <div class="tags-container">
+          <h4>recepty</h4>
+          <div class="tags-list">
+            <a href="tag-template.html">Maso (1)</a>
+            <a href="tag-template.html">Snídaně (2)</a>
+            <a href="tag-template.html">Mrkev (3)</a>
+            <a href="tag-template.html">Jídlo (4)</a>
+          </div>
+        </div>
+        
+        <div class="recipes-list">
+          
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Mleté maso</h5>
+            <p>Příp. : 15min | Vaření : 5min</p>
+          </a>
+          
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Žebra</h5>
+            <p>Příp. : 15min | Vaření : 5min</p>
+          </a>
+         
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              class="img recipe-img"
+              alt=""
+              />
+            <h5>Polévka</h5>
+            <p>Příp. : 15min | Vaření : 5min</p>
+            <a href="single-recipe.html" class="recipe">
+              <img
+                src="./assets/recipes/recipe-4.jpeg"
+                class="img recipe-img"
+                alt=""
+              />
+              <h5>Palačinky</h5>
+              <p>Příprava : 15min | vaření : 5min</p>
+          </a>
+         
+        </div>
+      </section>
+    </main>
+   
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Recepty</span> Vytvořeno
+        <a href="https://www.blabla.com/">reidy</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

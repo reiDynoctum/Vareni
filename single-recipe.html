@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="cz">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vareni</title>
+   
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    
+    <link rel="stylesheet" href="./css/normalize.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+   
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+         <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Domu </a>
+          <a href="about.html" class="nav-link"> O nás </a>
+          <a href="tags.html" class="nav-link"> Tagy </a>
+          <a href="recipes.html" class="nav-link"> Recepty </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Kontakt </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+   
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/recipe-4.jpeg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Banana Pancakes</h2>
+            <p>
+              Banány rozmačkáme v hlubokém talíři vidličkou na kaši, přidáme vejce a vše dobře promícháme. 
+              Nepřidáváme mouku ani cukr. Přidat ale můžeme například trošku kokosu nebo skořice pro obměnu chuti.
+              Rozpálíme pánev s nepřilnavým povrchem, na kterou můžeme přidat i pár kapek oleje. 
+              Použít můžeme například kokosový olej. Lžící nabíráme banánové těstíčko, které klademe v podobě 
+              placiček na rozpálenou pánev a smažíme z obou stran dozlatova. 
+              Otáčíme jen jednou, až když je strana zcela osmažená, pro lepší manipulaci
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>příp. čas</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>příp. čas</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>osoby</h5>
+                <p>6 lidí</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tagy : <a href="tag-template.html">Maso</a>
+              <a href="tag-template.html">Snidaně</a>
+              <a href="tag-template.html">Palačinky</a>
+              <a href="tag-template.html">Jídlo</a>
+            </p>
+          </article>
+        </section>
+        
+        <section class="recipe-content">
+          <article>
+            <h4>instrukce</h4>
+           
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Smažení palačinek je trochu složitější, protože jsou větší a těsto je velmi křehké a nadýchané, ale co...
+              </p>
+            </div>
+            
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                Doporučuji vyzkoušet jen pokud máte v ruce grif, pro obratný způsob otáčení palačinek ve vzduchu, bez obracečky.
+                Zdobíme dle vlastní chuti, použít můžeme vše co dáváme na klasické sladké palačinky.
+              </p>
+            </div>
+            
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                Zdobíme dle vlastní chuti, použít můžeme vše co dáváme na klasické sladké palačinky.
+              </p>
+            </div>
+            
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>Ingredience</h4>
+              <p class="single-ingredient">1 1/2 šálku</p>
+              <p class="single-ingredient">1/2 šálku hlíny :D</p>
+              <p class="single-ingredient">1 šálku mléka</p>
+            </div>
+            <div>
+              <h4>Budeme potřebovat</h4>
+              <p class="single-tool">Ruční šlehač</p>
+              <p class="single-tool">Zbíječku</p>
+              <p class="single-tool">Bagr s návěsem</p>
+              <p class="single-tool">Hrneček</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+   
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Recepty</span> Vytvořeno
+        <a href="https://www.blabla.com/">reidy</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
